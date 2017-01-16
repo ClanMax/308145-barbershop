@@ -1,6 +1,8 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Владислав Мериин](https://up.htmlacademy.ru/htmlcss/16/user/308145).
+* Наставник: [Евгений Закурдаев](https://up.htmlacademy.ru/htmlcss/16/user/25657).
+
 
 ---
 
