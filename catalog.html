@@ -35,28 +35,25 @@
                 </ul>
             </nav>
             
-            <div class="main-filter">
+            <form action="#" class="main-filter">
                 <span class="main-filter_name">Производители:</span>
                 
-                <ul class="main-filter_ul">
-                    <li class="main-filter_item">Baxter of California</li>
-                    <li class="main-filter_item">Mr Natty</li>
-                    <li class="main-filter_item">Sliavecito</li>
-                    <li class="main-filter_item">Malin+Goetz</li>
-                    <li class="main-filter_item">Murray's</li>
-                    <li class="main-filter_item">American Crew</li>
-                </ul>
+                <input type="checkbox" id="baxter_filter" name="baxter_filter"><label for="baxter_filter">Baxter of California</label>
+                <input type="checkbox" id="natty_filter" name="natty_filter"><label for="natty_filter">Mr Natty</label>
+                <input type="checkbox" id="sliavecito_filter" name="sliavecito_filter"><label for="sliavecito_filter">Sliavecito</label>
+                <input type="checkbox" id="malin_filter" name="malin_filter"><label for="malin_filter">Malin+Goetz</label>
+                <input type="checkbox" id="murray_filter" name="murray_filter"><label for="murray_filter">Murray's</label>
+                <input type="checkbox" id="american_filter" name="american_filter"><label for="american_filter">American Crew</label>
                 
                 <span class="main-filter_name">Группы товаров:</span>
                 
-                <ul class="main-filter_ul">
-                    <li class="main-filter_item">Бритвенные принадлежности</li>
-                    <li class="main-filter_item">Средства для ухода</li>
-                    <li class="main-filter_item">Аксессуары</li>
-                </ul>
+                <input type="checkbox" id="razor_filter" name="razor_filter"><label for="razor_filter">Бритвенные принадлежности/label>
+                <input type="checkbox" id="care_filter" name="care_filter"><label for="care_filter">Средства для ухода</label>
+                <input type="checkbox" id="accessories_filter" name="accessories_filter"><label for="accessories_filter">Аксессуары</label>
+                
                 
                 <button class="btn main-filter_btn">Показать</button>
-            </div>
+            </form>
             
             <div class="main-catalog">
                <div class="catalog-list">
@@ -98,9 +95,9 @@
 
                         <span class="main-catalog-item_name">Глина для укладки волос «AMERICAN CREW»</span>
 
-                        <div class="main-catalog-item_cost">
-                            <span class="main-catalog-item_number">2 900 руб.</span>
-                            <button class="main-catalog-item_cost__btn btn">Купить</button>
+                        <div class="main-catalog-item_cost item-cost">
+                            <span class="main-catalog-item_number item-number">2 900 руб.</span>
+                            <button class="main-catalog-item_cost__btn btn item-cost__btn">Купить</button>
                         </div>
                     </section>
                     
